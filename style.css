@@ -1,0 +1,272 @@
+.htext{
+    font-size: 20px;
+}
+
+.button{
+    font-size: 20px;
+    background-color: #659640;
+    color: white;
+    border: none;
+    height: 60px;
+}
+.elementor-video{
+    width: 100%;
+}
+.color{
+    color: #659640;
+}
+.colors{
+    background-color:#659640;
+}
+.third{
+    background-color: #F2F2F2;
+}
+.contacts{
+    background-image: url("https://gsbs.co.in/wp-content/uploads/2022/12/WhatsApp-Image-2022-12-01-at-10.17.32.jpeg");
+    height: 400px;
+    opacity: 0.5;
+}
+.conta1{
+    background-color: #5E9037;
+    opacity: 1;
+    height: 400px;
+}
+
+.btns-read{
+    border: none;
+    background-color: #659640;
+    color: white;
+    height: 45px;
+}
+.btns-down{
+    border-color: #659640;
+    color: #659640;
+}
+.paracard{
+    background-image: url("./92626\ \(1\).jpeg");
+    color: white;
+}
+.coles{
+    background-color: #2C0163;
+    opacity: 0.79;
+    width: 100%;
+   
+}
+
+.paracared{
+    background-image: url("./92626\ \(1\).jpeg");
+    opacity: 1;
+    
+}
+.cardsset{
+    border: 2px solid none;
+    padding: 10px;
+    border-radius: 2em 4em 4em 4em / 0em 3em 0em 4em;
+}
+.cardssets{
+    border: 2px solid none;
+    padding: 10px;
+    border-radius: 4em 4em 4em 4em / 4em 0em 4em 0em;
+
+}
+.caset{
+        padding: 5% 0% 6% 0%;
+    background-color: transparent;
+    background-image: linear-gradient(180deg, #5E9037 0%, #77B140 100%);
+    border-style: solid;
+    border-width: 1px 1px 1px 1px;
+    border-color: #FFFFFF;
+    border-radius: 50px 0px 50px 0px;
+
+}
+.paracards{
+    background-image: linear-gradient(180deg, #5E9037 0%, #77B140 100%);
+    height: 160px;
+}
+.inputswe{
+    background-color: transparent;
+    border: #F2F2F2;
+    color: white;
+    border-color: #F2F2F2;
+}
+.para{
+    text-align: justify;
+}
+.form-controls{
+    border: 2px solid white;
+    border-color: white;
+    color: white;
+    background-color: transparent;
+    
+}
+.buttons{
+    background-color: white;
+    border: none;
+    color: black;
+}
+.vl{
+    border-left: 2px solid green;
+    height: 40px;
+}
+.navs:hover{
+    color: #5E9037;
+}
+
+
+.sliderContainer {
+    overflow: hidden;
+    width: 100vw;
+    height: 300px;
+  }
+  
+  .logoSlider>img {
+    width: 300px;
+    height: 300px;
+  }
+  
+  .logoSlider {
+    display: flex;
+    animation: slideshow 6s infinite linear;
+  }
+  @keyframes slideshow {
+    from {
+      transform: translate(100%);
+    }
+    to {
+      transform: translate(-150%);
+    }
+  }
+
+
+
+  .hero {
+    background-image: url(https://gsbs.co.in/wp-content/uploads/2024/04/92626.webp);
+    background-position: center center;
+    background-repeat: repeat;
+    background-color: #649840;
+    opacity: 0.79;
+    color: #ffffff;
+}
+
+input[type=email],
+input[type=number],
+input[type=password],
+input[type=reset],
+input[type=search],
+input[type=tel],
+input[type=text],
+input[type=url],
+select,
+textarea {
+    color: #000000 !important;
+    padding: .75em !important;
+    height: auto !important;
+    border-width: 1px !important;
+    border-style: solid !important;
+    border-color: #ffffff !important;
+    border-radius: 5px !important;
+    background: #ffffffad !important;
+    box-shadow: none;
+    box-sizing: border-box;
+    transition: all .2s linear;
+    font-weight: 600 !important;
+}
+
+.form-label {
+    margin-bottom: .5rem;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.form-select {
+    padding: .75em !important;
+    background-color: #ffffff !important;
+    color: #000000 !important;
+}
+
+.submitBtn {
+    color: #659640 !important;
+    padding: 0.75rem !important;
+    font-size: 18px !important;
+    font-weight: 600 !important;
+}
+
+.boxHero {
+    background-color: #000 !important;
+    color: #ffffff !important;
+    padding: 1rem 3rem !important;
+    border-radius: 50px 0px 50px 0px !important;
+    font-size: 18px;
+    font-weight: 600 !important;
+    width: auto !important;
+    border-right: 2px solid #ffffff !important;
+    border-bottom: 2px solid #ffffff !important;
+}
+
+input::placeholder {
+    color: #ffffff;
+    opacity: 1;
+    /* Firefox */
+    font-size: 18px;
+    font-weight: 600 !important;
+}
+
+input::-ms-input-placeholder {
+    /* Edge 12 -18 */
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: 600 !important;
+}
+
+li {
+    list-style-type: none;
+    font-size: 18px !important;
+    color: #ffffff !important;
+    font-weight: 600 !important;
+}
+
+input[type=checkbox],
+input[type=radio] {
+    margin-right: 2%;
+}
+
+.mycheckbox {
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    width: 20px;
+    height: 20px;
+    background-color: #000000;
+    border-radius: 3px;
+    border-bottom: 2px solid #ffffff;
+}
+
+.mycheckbox:checked {
+    background-color: #000000 !important;
+    border-top: 2px solid #ffffff !important;
+    border-bottom: 0px !important;
+}
+
+.mycheckbox:checked::before {
+    content: '\2713';
+    font-size: 16px;
+    color: #ffffff;
+    position: relative;
+    left: 4px;
+    top: 1px;
+}
+
+#errorText {
+    width:auto;
+    max-width:60%;
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    background-color: #363636;
+    padding: 0.75rem;
+    border-bottom: 3px solid #ffffff !important;
+    border-radius: 5px;
+    font-size: 18px;
+    color: #ffffff !important;
+    font-weight: 600;
+}
